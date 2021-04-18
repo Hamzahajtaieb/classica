@@ -4003,7 +4003,18 @@ td.total {
     font-weight: 600;
     margin-right: 5px;
     color: #fff;
-    margin-top: 43%;
+    margin-top: 40%;
+  }
+  
+  .image_pizza_hover_orange{
+    display: none;
+  }
+  .image_pizza_hover_orange:hover{
+    display: inline;
+  }
+
+  .pizza_icon_image:hover {
+    color: #e1901b;
   }
   .main-header.header-fw {
     padding: 0 55px;
@@ -4011,11 +4022,15 @@ td.total {
 }
 
 @media (max-width: 1199px) {
+  
   .pizza_icon_image {
     font-weight: 600;
     margin-right: 5px;
     color: #fff;
     margin-top: 43%;
+  }
+  .image_pizza_hover:hover{
+    background-image: url(assets/img/Icons/icon_pizza_orange.png);
   }
   .main-header.header-fw {
     padding: 0 35px;
@@ -4033,6 +4048,12 @@ td.total {
 }
 
 @media (max-width: 991px) {
+  .image_pizza_hover_orange{
+    display: none;
+  }
+  .image_pizza_hover_orange:hover{
+    display: inline;
+  }
   .pizza_icon_image {
     font-weight: 600;
     margin-right: 5px;
