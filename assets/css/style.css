@@ -1074,12 +1074,14 @@ table img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 30px 20px;
+  padding: 20px 20px;
+  margin: 0px 10px;
   color: #fff;
   font-weight: 600;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  top: 10px;
 }
 
 .navbar .navbar-nav > .menu-item:last-child > a {
@@ -4624,7 +4626,7 @@ nav.fill ul li a {
 nav.stroke ul li a:after,
 nav.fill ul li a:after {
   position: absolute;
-  bottom: 0;
+  bottom: 11px;
   left: 0;
   right: 0;
   margin: auto;
