@@ -161,10 +161,10 @@ html { font-size:100%; }
 }
 
 /* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
+/* @media screen and (max-width: 1060px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
-}
+} */
 
 /* Media Queries: Tabled Portrait */
 @media screen and (max-width: 768px) {
@@ -173,7 +173,7 @@ html { font-size:100%; }
 }
 
 
-@media (min-device-width:600px) {
+/* @media (min-device-width:600px) {
     img[data-src-600px] {
         content: attr(data-src-600px, url);
     }
@@ -183,7 +183,7 @@ html { font-size:100%; }
 @media (min-device-width:800px) {
     img[data-src-800px] {
         content: attr(data-src-800px, url);
-    }
+    } */
 
 /* }
 @media (min-width: 640px) { body {font-size:1rem;} } 
