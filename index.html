@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="assets/css/plugins/slick-theme.css">
   <!-- Icon Fonts -->
   <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+  <link rel="stylesheet" href="assets/fonts/flaticon_new/flaticon.css">
   <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css">
 
   <!-- Classica Style sheet -->
@@ -427,11 +428,8 @@
 
   <!-- Menu Start -->
   <section class="section pt-0 section-padding">
-    <div class="container">
-      <div class="section-title-wrap section-header text-center"
-      style="
-    margin-top: 5%;
-">
+    <div class="container" style="padding-top: 40px;">
+      <div class="section-title-wrap section-header text-center">
         <h5>Top Picks</h5>
         <h2 class="title">Choose your Meal</h2>
         <p class="subtitle">
@@ -441,62 +439,59 @@
 
       <ul class="nav justify-content-center" id="product-infoTab" role="tablist">
 
+        <!-- PIZZA -->
         <li class="nav-item nav-item-icon">
-          <a class="nav-link" id="menu-burgers-tab" data-toggle="pill" href="#menu-pizza" role="tab" aria-controls="menu-pizza" aria-selected="false">
-            <!-- <i class="flaticon-address"></i> -->
-            <i>
-              <img class="image_pizza_hover" src="assets/img/Icons/icon_pizza.png" width="44" height="40" style="margin-top: -4px;" >
-              <img class="image_pizza_hover_orange" src="assets/img/Icons/icon_pizza_orange.png" width="44" height="40" style="margin-top: -4px;" >
-
-            <br> 
-            <p class="pizza_icon_image"
-            >Pizza</p>
-            </i>
-            
+          <a class="nav-link active" id="pizza-appetizers-tab" data-toggle="pill" href="#pizza-menu-appetizers" role="tab" aria-controls="pizza-menu-appetizers" aria-selected="true">
+            <i class="flaticon-pizza"></i>
+            Pizza
           </a>
         </li>
 
+        <!-- POUTINES -->
         <li class="nav-item nav-item-icon">
-          <!-- <a class="nav-link active" id="menu-appetizers-tab" data-toggle="pill" href="#menu-appetizers" role="tab" aria-controls="menu-appetizers" aria-selected="false"> -->
-          <a class="nav-link active" id="menu-appetizers-tab" data-toggle="pill" href="#menu-poutines" role="tab" aria-controls="menu-poutines" aria-selected="false">
+          <a class="nav-link" id="menu-appetizers-tab" data-toggle="pill" href="#menu-appetizers" role="tab" aria-controls="menu-appetizers" aria-selected="false">
             <i class="flaticon-french-fries"></i>
             Poutines
           </a>
         </li>
 
+        <!-- SIDES -->
         <li class="nav-item nav-item-icon">
-          <a class="nav-link active" id="menu-sides-tab" data-toggle="pill" href="#menu-sides" role="tab" aria-controls="menu-sides" aria-selected="false">
-            <i class="flaticon-bread-roll"></i>
+          <a class="nav-link" id="menu-burgers-tab" data-toggle="pill" href="#menu-burgers" role="tab" aria-controls="menu-burgers" aria-selected="false">
+            <i class="flaticon-burger"></i>
             Sides
           </a>
         </li>
 
+        <!-- Sweets -->
         <li class="nav-item nav-item-icon">
-          <a class="nav-link" id="menu-sweets-tab" data-toggle="pill" href="#menu-burgers" role="tab" aria-controls="menu-sweets" aria-selected="false">
-            <i class="flaticon-supermarket"></i>
-            <!-- <i><img src="assets/img/Icons/icon_wedding-cake.png" width="44" height="40" ></i> -->
+          <a class="nav-link" id="Sweets-burgers-tab" data-toggle="pill" href="#Sweets-burgers" role="tab" aria-controls="Sweets-burgers" aria-selected="false">
+            <i class="flaticon-cupcake"></i>
             Sweets
           </a>
         </li>
+
+        <!-- DRINKS -->
         <li class="nav-item nav-item-icon">
           <a class="nav-link" id="menu-drinks-tab" data-toggle="pill" href="#menu-drinks" role="tab" aria-controls="menu-drinks" aria-selected="false">
             <i class="flaticon-soda"></i>
             Drinks
           </a>
         </li>
+
       </ul>
 
       <div class="tab-content" id="product-infoTabContent">
 
-        <!-- Poutines -->
-        <div class="tab-pane fade show active" id="menu-poutines" role="tabpanel" aria-labelledby="menu-appetizers-tab">
+        <!-- PIZZA -->
+        <div class="tab-pane fade show active" id="pizza-menu-appetizers" role="tabpanel" aria-labelledby="pizza-appetizers-tab">
 
           <div class="row">
             <!-- Product Start -->
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Pizza_images/pepperoni.jpg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -504,9 +499,9 @@
                   </div>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Nuggets</a> </h5>
-                  <p class="product-price custom-secondary">8.99$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="menu.html">Peperoni</a> </h5>
+                  <p class="product-price custom-secondary">12,49$ - 22,49$</p>
+                  <p class="product-text">Sauce Tomate, Mozzarella, Peperon.</p>
                 </div>
               </div>
             </div>
@@ -516,7 +511,7 @@
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Pizza_images/Québécoise.jpg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -524,9 +519,9 @@
                   </div>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Onion Rings</a> </h5>
-                  <p class="product-price custom-secondary">12.00$ - 24.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="menu.html">Québécoise</a> </h5>
+                  <p class="product-price custom-secondary">15,49$ - 28,49$</p>
+                  <p class="product-text">Sauce Tomate, Mozzarella, Peperoni, Champignons, Bacon.</p>
                 </div>
               </div>
             </div>
@@ -536,7 +531,7 @@
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Pizza_images/pecheur.jpg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -544,9 +539,9 @@
                   </div>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Quesadillas</a> </h5>
-                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="product-details.html">Pecheur</a> </h5>
+                  <p class="product-price custom-secondary">14,49$ - 27,49$</p>
+                  <p class="product-text">Sauce Tomate, Mozarella, Thon, olives noires.</p>
                 </div>
               </div>
             </div>
@@ -556,15 +551,83 @@
 
         </div>
 
-        <!-- Pizza -->
-        <div class="tab-pane fade" id="menu-pizza" role="tabpanel" aria-labelledby="menu-burgers-tab">
+        <!-- POUTINES -->
+        <div class="tab-pane fade" id="menu-appetizers" role="tabpanel" aria-labelledby="menu-appetizers-tab">
 
           <div class="row">
             <!-- Product Start -->
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Poutines_images/classic.jpg" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Classique</a> </h5>
+                  <p class="product-price custom-secondary">8.99$</p>
+                  <p class="product-text"></p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="assets/img/Poutines_images/Poulet_Popcorn.jpg" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Poulet Popcorn</a> </h5>
+                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
+                  <p class="product-text"></p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="assets/img/Poutines_images/Bacon.jpg" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Bacon</a> </h5>
+                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
+                  <p class="product-text"></p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+          </div>
+
+        </div>
+
+        <!-- SIDES -->
+        <div class="tab-pane fade" id="menu-burgers" role="tabpanel" aria-labelledby="menu-burgers-tab">
+
+          <div class="row">
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="assets/img/Sides_images/patates_grecques.jpeg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -577,9 +640,9 @@
                   <i class="flaticon-broccoli" data-toggle="tooltip" title="Vegetables"></i>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Cheesy Bomb</a> </h5>
-                  <p class="product-price custom-secondary">8.99$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="product-details.html">Patate Grecques</a> </h5>
+                  <p class="product-price custom-secondary">3,99$</p>
+                  <p class="product-text"></p>
                 </div>
               </div>
             </div>
@@ -589,7 +652,7 @@
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Sides_images/frites_sauce.jpeg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -602,9 +665,9 @@
                   <i class="flaticon-broccoli" data-toggle="tooltip" title="Vegetables"></i>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Fish Burger</a> </h5>
-                  <p class="product-price custom-secondary">12.00$ - 24.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="product-details.html">Frites Sauce</a> </h5>
+                  <p class="product-price custom-secondary">3,99$</p>
+                  <p class="product-text"></p>
                 </div>
               </div>
             </div>
@@ -614,7 +677,7 @@
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Sides_images/patates_grecques.jpeg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -627,145 +690,9 @@
                   <i class="flaticon-broccoli" data-toggle="tooltip" title="Vegetables"></i>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">King Henry</a> </h5>
-                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
-                </div>
-              </div>
-            </div>
-            <!-- Product End -->
-
-          </div>
-
-        </div>
-
-        <!-- Drinks  -->
-        <div class="tab-pane fade" id="menu-drinks" role="tabpanel" aria-labelledby="menu-drinks-tab">
-
-          <div class="row">
-            <!-- Product Start -->
-            <div class="col-md-4">
-              <div class="ct-product">
-                <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
-                  <div class="ct-product-controls">
-                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
-                  </div>
-                </div>
-                <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Iced Tea</a> </h5>
-                  <p class="product-price custom-secondary">8.99$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
-                </div>
-              </div>
-            </div>
-            <!-- Product End -->
-
-            <!-- Product Start -->
-            <div class="col-md-4">
-              <div class="ct-product">
-                <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
-                  <div class="ct-product-controls">
-                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
-                  </div>
-                </div>
-                <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Mint & Lemon</a> </h5>
-                  <p class="product-price custom-secondary">12.00$ - 24.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
-                </div>
-              </div>
-            </div>
-            <!-- Product End -->
-
-            <!-- Product Start -->
-            <div class="col-md-4">
-              <div class="ct-product">
-                <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
-                  <div class="ct-product-controls">
-                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
-                  </div>
-                </div>
-                <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Orange Juice</a> </h5>
-                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
-                </div>
-              </div>
-            </div>
-            <!-- Product End -->
-
-          </div>
-
-        </div>
-
-        <!-- Sides  -->
-        <div class="tab-pane fade" id="menu-sides" role="tabpanel" aria-labelledby="menu-sides-tab">
-
-          <div class="row">
-            <!-- Product Start -->
-            <div class="col-md-4">
-              <div class="ct-product">
-                <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
-                  <div class="ct-product-controls">
-                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
-                  </div>
-                </div>
-                <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Iced Tea</a> </h5>
-                  <p class="product-price custom-secondary">8.99$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
-                </div>
-              </div>
-            </div>
-            <!-- Product End -->
-
-            <!-- Product Start -->
-            <div class="col-md-4">
-              <div class="ct-product">
-                <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
-                  <div class="ct-product-controls">
-                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
-                  </div>
-                </div>
-                <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Mint & Lemon</a> </h5>
-                  <p class="product-price custom-secondary">12.00$ - 24.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
-                </div>
-              </div>
-            </div>
-            <!-- Product End -->
-
-            <!-- Product Start -->
-            <div class="col-md-4">
-              <div class="ct-product">
-                <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
-                  <div class="ct-product-controls">
-                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
-                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
-                  </div>
-                </div>
-                <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Orange Juice</a> </h5>
-                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="product-details.html">Pain au fromage a l'ail</a> </h5>
+                  <p class="product-price custom-secondary">8,99$</p>
+                  <p class="product-text"></p>
                 </div>
               </div>
             </div>
@@ -776,14 +703,14 @@
         </div>
 
         <!-- Sweets -->
-        <div class="tab-pane fade" id="menu-sweets" role="tabpanel" aria-labelledby="menu-sweets-tab">
+        <div class="tab-pane fade" id="Sweets-burgers" role="tabpanel" aria-labelledby="Sweets-burgers-tab">
 
           <div class="row">
             <!-- Product Start -->
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Sweets_images/Brownies.jpg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -791,9 +718,9 @@
                   </div>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Iced Tea</a> </h5>
-                  <p class="product-price custom-secondary">8.99$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="product-details.html">Brownies</a> </h5>
+                  <p class="product-price custom-secondary">2,99$</p>
+                  <p class="product-text"></p>
                 </div>
               </div>
             </div>
@@ -803,7 +730,7 @@
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Sweets_images/new-york-cheesecake.jpeg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -811,9 +738,9 @@
                   </div>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Mint & Lemon</a> </h5>
-                  <p class="product-price custom-secondary">12.00$ - 24.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="product-details.html">New York Cheesecake</a> </h5>
+                  <p class="product-price custom-secondary">5,99$</p>
+                  <p class="product-text"></p>
                 </div>
               </div>
             </div>
@@ -823,7 +750,7 @@
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <a href="product-details.html"><img src="assets/img/Sweets_images/pizza_nutella_fraise.jpeg" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
                     <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
@@ -831,9 +758,9 @@
                   </div>
                 </div>
                 <div class="ct-product-body">
-                  <h5 class="product-title"> <a href="product-details.html">Orange Juice</a> </h5>
-                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
-                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                  <h5 class="product-title"> <a href="product-details.html">Pizza Fraise Nutella</a> </h5>
+                  <p class="product-price custom-secondary">19,49$</p>
+                  <p class="product-text"></p>
                 </div>
               </div>
             </div>
@@ -842,6 +769,75 @@
           </div>
 
         </div>
+
+        <!-- Drinks -->
+        <div class="tab-pane fade" id="menu-drinks" role="tabpanel" aria-labelledby="menu-drinks-tab">
+
+          <div class="row">
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="assets/img/Drinks_images/cocacola.jpeg" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Coca-Cola</a> </h5>
+                  <p class="product-price custom-secondary">2,49$</p>
+                  <p class="product-text"></p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="assets/img/Drinks_images/fanta.jpg" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Fanta</a> </h5>
+                  <p class="product-price custom-secondary">2,49$</p>
+                  <p class="product-text"></p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="assets/img/Drinks_images/sprite.jpg" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Sprite</a> </h5>
+                  <p class="product-price custom-secondary">2,49$</p>
+                  <p class="product-text"></p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+          </div>
+
+        </div>
+
       </div>
 
     </div>
