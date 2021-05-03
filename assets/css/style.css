@@ -1608,7 +1608,7 @@ table img {
 
 .main-aside ul .menu-item.menu-item-has-children > a::after {
   font-family: "Font Awesome 5 Free";
-  /* content: "\f078"; */
+  /* content: "\f078";  */
   -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-variant: normal;
@@ -4686,6 +4686,22 @@ nav ul li a:hover {
 
 
 /* LOGO SHINE */
+figure {
+    width: 50%;
+    height: 80px;
+    margin: 0;
+    /* padding: 0; */
+    /* background: #fff; */
+    overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+
+/* Shine */
 .hover14 figure {
 	position: relative;
 }
