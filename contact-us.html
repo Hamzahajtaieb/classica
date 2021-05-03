@@ -386,16 +386,7 @@
             </p>
           </div>
 
-          <form method="post" action=”mailto:contact@yourdomain.com”
-
-
-          method=”POST”
-          
-          
-          enctype=”multipart/form-data”
-          
-          
-          name=”EmailForm”>
+          <!-- <form method="post" action=”mailto:contact@yourdomain.com” enctype=”multipart/form-data” name=”EmailForm”>
             <div class="row">
               <div class="form-group col-lg-6">
                 <input type="text" placeholder="First Name" class="form-control" name="fname" value="">
@@ -414,17 +405,39 @@
               </div>
             </div>
             <button type="submit"  value=”Submit” class="btn-custom primary" name="button">Submit</button>
-          </form>
+          </form> -->
+
+          <section>
+            <div class="container">
+              <form action="https://formspree.io/f/mbjqdkrg" method="POST" id="my-form">
+          
+                <div class="row">
+                  <div class="form-group col-lg-6">
+                    <label for="firstName"> First Name</label>
+                    <input type="text"  class="form-control" id="firstName" name="firstName">
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <label for="latsName">Last Name</label>
+                    <input type="text"  class="form-control" id="lastName" name="lastName">
+                  </div>
+                  <div class="form-group col-lg-12">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                  </div>
+                  <div class="form-group col-lg-12">
+                    <label for="massage">Massage</label>
+                    <textarea name="massage" class="form-control" id="massage" rows="8"></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="btn-custom primary" >Submit</button>
+              </form>
+            </div>
+            <div id="status"></div>
+          </section>
+
 
 
           
-          <form action=”mailto:amzasounds@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
-            Name:<br>
-            <input type=”text” size=”19″ name=”ContactName”><br><br>
-            Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
-            </textarea><br><br>
-            <input type=”submit” name="button" value=”Submit”>
-          </form>
 
         </div>
       </div>
@@ -528,6 +541,9 @@
   <script src="assets/js/plugins/jquery.countdown.min.js"></script>
   <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
   <script src="assets/js/plugins/slick.min.js"></script>
+
+  <!-- CONTACT -->
+  <script src="assets/js/contact-js.js"></script>
 
   <!-- Classica Scripts -->
   <script src="assets/js/main.js"></script>
