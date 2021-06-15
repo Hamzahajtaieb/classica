@@ -935,7 +935,11 @@ table img {
 
 /*======================
 1.8 Tabs
-========================*/
+========================*/**
+.tab {
+    display: inline-block;
+    margin-left: 200px;
+}
 .tab-content {
   margin-top: 50px;
 }
@@ -4007,7 +4011,7 @@ td.total {
     color: #fff;
     margin-top: 40%;
   }
-  
+
   .image_pizza_hover_orange{
     display: none;
   }
@@ -4024,7 +4028,7 @@ td.total {
 }
 
 @media (max-width: 1199px) {
-  
+
   .pizza_icon_image {
     font-weight: 600;
     margin-right: 5px;
