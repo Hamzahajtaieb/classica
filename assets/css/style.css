@@ -2441,7 +2441,7 @@ table img {
   text-align: center;
 }
 .ct-product-thumbnail img {
-  margin: 0 auto;
+  margin: auto;
 }
 .ct-product-controls {
   position: absolute;
@@ -2564,6 +2564,7 @@ table img {
 
 .ct-product.product-list.product-list-2 .product-price {
   position: absolute;
+  margin-left: auto;
   top: 0;
   right: 0;
 }
