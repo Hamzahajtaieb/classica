@@ -745,6 +745,7 @@ button[type="submit"]:disabled {
 1.5. Colors & Badges
 ====================*/
 .custom-primary {
+  text-shadow: 5px 5px 0px #eb452b;
   color: #e1901b;
 }
 .custom-secondary {
@@ -1722,7 +1723,7 @@ table img {
 ========================*/
 .ct-footer {
   padding: 80px 0 0;
-  background-color: #141110;
+  background-color: #F27834;
 }
 .ct-footer p {
   margin-bottom: 20px;
@@ -1736,6 +1737,7 @@ table img {
 }
 .footer-widget {
   padding-bottom: 80px;
+  
 }
 
 .footer-widget .widget-title,
@@ -1822,8 +1824,9 @@ table img {
 }
 
 .footer-bottom {
-  background-color: #141515;
+  background-color: #F27834;
   padding: 20px 0;
+
 }
 .footer-bottom .container {
   display: flex;
