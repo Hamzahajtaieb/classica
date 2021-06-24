@@ -1737,7 +1737,7 @@ table img {
 }
 .footer-widget {
   padding-bottom: 80px;
-  
+
 }
 
 .footer-widget .widget-title,
@@ -4007,7 +4007,14 @@ td.total {
 /*======================
 9. Repsonsive
 ========================*/
-
+  .deal-img{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 @media (max-width: 1680px) {
   .pizza_icon_image {
     font-weight: 600;
@@ -4157,7 +4164,7 @@ td.total {
     text-align: center;
   }
   .banner.banner-3 .banner-item {
-    padding: 120px 0;
+    padding: 0px 0;
   }
   .banner.banner-3 .ct-arrows {
     display: none;
